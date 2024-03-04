@@ -1,0 +1,23 @@
+{
+  "name": "w3pn-astro-sdk",
+  "version": "0.1.0",
+  "description": "A astro component template",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "src",
+    "index.js"
+  ],
+  "keywords": ["astro", "withastro", "astro-component"],
+  "scripts": {
+    "test": "mocha --parallel --timeout 15000"
+  },
+  "devDependencies": {
+    "astro": "^4.3.5"
+  },
+  "peerDependencies": {
+    "astro": "^4.3.5"
+  }
+}
